@@ -1,0 +1,21 @@
+{
+  "name": "chain",
+  "version": "0.2.1",
+  "description": "An asynchronous library for chaining calls.",
+  "author": "Jeffrey Johnson <ofshard@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ofShard/chain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ofShard/chain/issues"
+  },
+  "licenses": [
+    {
+      "type: "MIT",
+      "url": "https://github.com/ofShard/chain/raw/master/LICENSE"
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "main": "./lib/chain"
+}
