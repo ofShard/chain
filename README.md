@@ -33,5 +33,8 @@ var ch = C.nCall(fs.readFile, fs, 'config.json')
   })
   .chain(function() {
     doInit();
+  })
+  .fail(function(err) {
+    // If an error occurs, all chains will be skipped.
   });
 ```
